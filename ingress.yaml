@@ -30,14 +30,14 @@ spec:
           service:
             name: service2
             port:
-              number: 8081
+              number: 8080
       - path: /test3
         pathType: Prefix
         backend:
           service:
             name: service3
             port:
-              number: 8082
+              number: 8080
 
   tls:
   - hosts:

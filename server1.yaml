@@ -7,9 +7,8 @@ spec:
     app: service2
   ports:
   - protocol: TCP
-    port: 8081
-    targetPort: 8081
-  type: NodePort
+    port: 8080
+    targetPort: 8080
 ---
 apiVersion: apps/v1
 kind: Deployment
@@ -29,5 +28,5 @@ spec:
       - name: service2
         image: wngud1/hoeng:0.1.3
         ports:
-        - containerPort: 8081
+        - containerPort: 8080
 
