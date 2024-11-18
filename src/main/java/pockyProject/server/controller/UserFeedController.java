@@ -28,21 +28,21 @@ public class UserFeedController {
 
    @GetMapping("/test1/hello")
    public String hello1(){
-       return "hello";
+       return "hello2";
    }
     @GetMapping("/test2/hello")
     public String hello2(){
-        return "hello";
+        return "hello3";
     }
 
     @GetMapping("/test3/hello")
     public String hello3(){
-        return "hello";
+        return "hello4";
     }
 
     @GetMapping("/test4/hello")
     public String hello4(){
-        return "hello";
+        return "hello5";
     }
 
 
